@@ -48,17 +48,17 @@ Remove port SSH TCP 22
 7. Change the SSH port from 22 to 2200. Configure the Lightsail firewall to allow it.
 Open the file /etc/ssh/sshd_config
 ```
-$ sudo nano /etc/ssh/sshd_config
+$ sudo vi /etc/ssh/sshd_config
 ```
 
-8. Now change the following data
+8. Now change the following data and save
 ```
 Port 2200
 PermitRootLogin no
 PasswordAuthentication no
 ```
 
-9. Now resart the ssh service
+9. Now restart the SSH service
 ```
 $ sudo service ssh restart
 ```
