@@ -6,7 +6,7 @@ You will take a baseline installation of a Linux server and prepare it to host y
 
 The IP address: 13.127.29.36
 SSH port: 2200
-The complete URL to hosted web application: http://13.127.29.36
+The complete URL to hosted web application: http://34.226.219.58/
 
 ## Get your server
 
