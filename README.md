@@ -23,6 +23,13 @@ The complete URL to hosted web application: http://34.226.219.58/
 ```
 $ sudo apt-get update
 $ sudo apt-get upgrade
+
+Additionally you can run below to upgrade systen packages not installed using apt-get:
+
+$sudo apt-get dist-upgrade
+```
+Install finger
+```
 $ sudo apt-get install finger
 ```
 
